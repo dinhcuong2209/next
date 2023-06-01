@@ -1,0 +1,12 @@
+import { memo, SVGProps } from 'react';
+
+const FrameIcon16 = (props: SVGProps<SVGSVGElement>) => (
+  <svg preserveAspectRatio='none' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <path
+      d='M8.27614 3.33333H14C14.3682 3.33333 14.6667 3.63181 14.6667 4V13.3333C14.6667 13.7015 14.3682 14 14 14H2.00001C1.63182 14 1.33334 13.7015 1.33334 13.3333V2.66667C1.33334 2.29848 1.63182 2 2.00001 2H6.94281L8.27614 3.33333ZM2.66668 3.33333V12.6667H13.3333V4.66667H7.72388L6.39054 3.33333H2.66668ZM7.33334 8V6H8.66668V8H10.6667V9.33333H8.66668V11.3333H7.33334V9.33333H5.33334V8H7.33334Z'
+      fill='#6C8093'
+    />
+  </svg>
+);
+const Memo = memo(FrameIcon16);
+export { Memo as FrameIcon16 };
